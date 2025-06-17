@@ -1,0 +1,249 @@
+/* === Umum === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffe6f0, #ffc0cb);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* === Login & Register === */
+.login-container, .register-container {
+    background: #ffffffdd;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.login-container h2, .register-container h2 {
+    margin-bottom: 25px;
+    color: #d63384;
+}
+
+/* === Input umum === */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #fff0f5;
+    display: block;
+}
+
+/* === Button umum === */
+button {
+    padding: 12px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 95%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff85c1;
+}
+
+/* === Dashboard & Navigasi === */
+nav a {
+    background-color: #ff69b4;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+nav a.logout {
+    background-color: #e74c3c;
+}
+
+nav a.logout:hover {
+    background-color: #c0392b;
+}
+
+h2 {
+    text-align: center;
+    color: #d63384;
+}
+
+.message {
+    color: green;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* === Tabel === */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ffe6f0;
+}
+
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #f8d7da;
+    color: #d63384;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(214, 51, 132, 0.1);
+}
+
+.btn-back:hover {
+    background-color: #f3a6b1;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #ffffffee;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.menu a {
+    padding: 12px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2);
+    min-width: 180px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #ff85c1;
+    transform: scale(1.05);
+}
+
+.menu a.logout {
+    background-color: #e74c3c;
+}
+
+.menu a.logout:hover {
+    background-color: #c0392b;
+}
+
+.dashboard-info h3 {
+    color: #c2185b;
+    margin-top: 30px;
+}
+
+.dashboard-info p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+/* Statistik Page Style */
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #ffffffee;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #c2185b;
+}
+
+.btn-back {
+    display: inline-block;
+    margin: 10px 0 30px;
+    padding: 10px 18px;
+    background-color: #f8d7da;
+    color: #d63384;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #f3a6b1;
+    color: white;
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ffe6f0;
+}

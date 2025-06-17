@@ -17,15 +17,8 @@ $data = mysqli_query($conn, "
 <head>
     <meta charset="UTF-8">
     <title>Data Pembeli</title>
-    <link rel="stylesheet" href="style.css">
 
-</head>
-<body>
-
-    <h2>💖 Data Pembeli Mobil</h2>
     <a href="dashboard.php" class="btn-back">← Kembali ke Dashboard</a>
-
-
     <table>
         <tr>
             <th>No</th>

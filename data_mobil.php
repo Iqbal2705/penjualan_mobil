@@ -40,7 +40,10 @@ $result = mysqli_query($conn, "SELECT * FROM mobil");
     <meta charset="UTF-8">
     <title>Data Mobil</title>
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0cfdf96 (progres kedua)
     <script>
         function confirmHapus(merk, model) {
             return confirm(`Yakin ingin menghapus mobil ${merk} ${model}?`);
@@ -51,8 +54,6 @@ $result = mysqli_query($conn, "SELECT * FROM mobil");
 
     <h2>📋 Data Mobil</h2>
     <a href="dashboard.php" class="btn-back">← Kembali ke Dashboard</a>
-
-
     <?php if ($message): ?>
         <p class="message"><?= $message; ?></p>
     <?php endif; ?>

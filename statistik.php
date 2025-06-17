@@ -37,8 +37,8 @@ $total_terjual = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) AS tota
 $total_pembelian = mysqli_fetch_assoc(mysqli_query($conn, "
     SELECT SUM(m.harga) AS total 
     FROM pembelian p 
-    JOIN mobil m ON p.mobil_id = m.id
-"))['total'];
+    JOIN mobil m ON p.mobil_id = m.id"))['total'];
+
 ?>
 
 <!DOCTYPE html>
@@ -116,6 +116,10 @@ $total_pembelian = mysqli_fetch_assoc(mysqli_query($conn, "
                 <td>Rp <?= number_format($total_pembelian ?: 0, 0, ',', '.') ?></td>
             </tr>
         </table>
+<<<<<<< HEAD
+=======
+>>>>>>> 054f0b3 (progres kedua)
+>>>>>>> 0cfdf96 (progres kedua)
     </div>
 </body>
 </html>

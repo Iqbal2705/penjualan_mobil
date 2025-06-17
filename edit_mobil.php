@@ -41,15 +41,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <title>Edit Mobil</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
     <div class="container">
         <h2>✏️ Edit Mobil</h2>
         <a href="dashboard.php" class="btn-back">← Kembali ke Dashboard</a>
-
-
         <?php if ($message): ?>
             <p class="message"><?= $message; ?></p>
         <?php endif; ?>

@@ -61,7 +61,6 @@ $mobil = mysqli_query($conn, "SELECT * FROM mobil");
                 <option value="Cash">Cash</option>
                 <option value="Debit">Debit</option>
             </select>
-
             <select name="mobil_id" required <?= $selected_mobil_id ? "" : "" ?>>
                 <option value="">Pilih Mobil</option>
                 <?php while ($row = mysqli_fetch_assoc($mobil)): ?>
@@ -70,7 +69,6 @@ $mobil = mysqli_query($conn, "SELECT * FROM mobil");
                     </option>
                 <?php endwhile; ?>
             </select>
-
             <!-- If mobil_id is pre-selected from URL, add hidden field -->
             <?php if ($selected_mobil_id > 0): ?>
                 <input type="hidden" name="mobil_id" value="<?= $selected_mobil_id ?>">
@@ -84,4 +82,9 @@ $mobil = mysqli_query($conn, "SELECT * FROM mobil");
         </form>
     </div>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 054f0b3 (progres kedua)
+>>>>>>> 0cfdf96 (progres kedua)

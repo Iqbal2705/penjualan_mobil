@@ -1,7 +1,5 @@
 <?php
 include 'config.php';
-
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $_POST['username'];
     $pass = md5($_POST['password']);
@@ -23,7 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <title>Login Admin</title>
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0cfdf96 (progres kedua)
 </head>
 <body>
     <div class="login-container">
